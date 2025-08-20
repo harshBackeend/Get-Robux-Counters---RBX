@@ -2,19 +2,79 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+
+        <package android:name="com.google.ar.core" />
+    </queries>
+
     <application
+        android:name=".tools.StartApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GetRobuxCountersRBX"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".view.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.DictionaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.TipsTricksDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.TipsTricksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MemesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SpinWinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.QuizEndActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.QuizStartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ScratchAndWinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.ConverterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.DashBordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.InfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LetStartsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

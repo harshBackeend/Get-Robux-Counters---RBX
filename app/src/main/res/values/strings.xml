@@ -235,4 +235,34 @@
     <string name="please_spare_a_moment_to_rate_and_give_your_valuable_feedback_to_us_before_leaving">Please spare a Moment To Rate And Give Your Valuable Feedback To Us Before Leaving....</string>
     <string name="yes_exit">Yes, Exit</string>
     <string name="please_on_internet">Please on Internet</string>
+    <string name="check_out_the_app_at_https_play_google_com_store_apps_details_id">Check out the App at: https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="https_play_google_com_store_apps_details_id">https://play.google.com/store/apps/details?id=%1$s</string>
+    <string name="market_details_id">market://details?id=%1$s</string>
+    <string name="_25_25">25*25</string>
+    <string name="_625">625</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_125">125</string>
+    <string name="_100_25">100/25</string>
+    <string name="_4">4</string>
+    <string name="_75">75</string>
+    <string name="_85_56">85-56</string>
+    <string name="_29">29</string>
+    <string name="_40">40</string>
+    <string name="_30">30</string>
+    <string name="_141">141</string>
+    <string name="_25_23">25-23</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_6_3">6-3</string>
+    <string name="_8">8</string>
+    <string name="_28_4">28*4</string>
+    <string name="_112">112</string>
+    <string name="_200">200</string>
+    <string name="_13_13">13*13</string>
+    <string name="_169">169</string>
+    <string name="_111">111</string>
+    <string name="_123">123</string>
 </resources>

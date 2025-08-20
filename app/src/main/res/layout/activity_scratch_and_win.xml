@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_2"
+    tools:context=".view.ScratchAndWinActivity">
+
+    <include
+        android:id="@+id/layoutActionBar"
+        layout="@layout/top_bar_layout" />
+
+    <LinearLayout
+        android:id="@+id/layoutCoinHolderS"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintDimensionRatio="1:1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutActionBar">
+
+        <ImageView
+            android:id="@+id/imageCoinHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_money_box_1" />
+
+    </LinearLayout>
+
+    <in.myinnos.androidscratchcard.ScratchCard
+        android:id="@+id/event"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="@id/layoutCoinHolderS"
+        app:layout_constraintStart_toStartOf="@id/layoutCoinHolderS"
+        app:layout_constraintTop_toTopOf="@id/layoutCoinHolderS"
+        app:layout_constraintBottom_toBottomOf="@id/layoutCoinHolderS" />
+
+    <LinearLayout
+        android:id="@+id/layoutBigHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <include android:id="@+id/layoutBig"
+            layout="@layout/small_2_image_layout"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
