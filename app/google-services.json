@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208976934824",
+    "project_id": "rbcalculator-54976",
+    "storage_bucket": "rbcalculator-54976.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208976934824:android:247a0f131284e5bdf60f9d",
+        "android_client_info": {
+          "package_name": "com.gtrbx.gtrbxcounter034"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAA7GVY2RGNh6D_FYlsS6WtIW3yT9JU0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -54,7 +54,7 @@
     <style name="Theme.GetRobuxCountersRBX" parent="Base.Theme.GetRobuxCountersRBX" />
 
     <style name="splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenIconBackgroundColor">@drawable/theme_icon</item>
+        <item name="android:windowBackground">@drawable/theme_icon</item>
         <item name="postSplashScreenTheme">@style/Theme.GetRobuxCountersRBX</item>
         <item name="windowSplashScreenAnimationDuration">2000</item>
     </style>
